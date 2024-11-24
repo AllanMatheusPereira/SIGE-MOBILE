@@ -28,7 +28,7 @@
         <!-- Definição da chave de API do Google Maps -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDj-iVyphN7KJ9ObbystSyQ5Z7_ijPGX7I" />
+            android:value="CHAVE API GOOGLE MAPS" />
 
         <!-- Declarações de atividades -->
         <activity
