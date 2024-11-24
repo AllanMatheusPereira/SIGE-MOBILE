@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".view.CadastroActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar"
+        android:textColor="@color/personalizada"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="48dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fundo_arredondado_edittext"
+        android:hint="   Digite seu nome..."
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinzaClaro"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edNomeCadastro"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/fundo_arredondado_edittext"
+        android:hint="   Digite seu email..."
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinzaClaro"
+        android:layout_marginTop="5dp"
+        android:id="@+id/edEmailCadastro"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha:"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edSenhaCadastro"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/fundo_arredondado_edittext"
+        android:hint="Digite sua senha..."
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/cinzaClaro"
+        android:importantForAutofill="noExcludeDescendants" />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Confirmar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/personalizada"
+        android:id="@+id/btConfirmarCadastro"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Sair"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/personalizada"
+        android:id="@+id/btSairCadastro"
+        />
+
+</LinearLayout>

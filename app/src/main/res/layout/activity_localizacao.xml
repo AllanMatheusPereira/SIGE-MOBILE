@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localização"
+        android:textColor="@color/personalizada"
+        android:fontFamily="serif"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:textSize="48dp"
+        />
+
+    <TextView
+        android:id="@+id/tvEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Endereço: [Aguardando...]"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/tvNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número: [Aguardando...]"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black" />
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnAbrirMaps"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:text="Abrir no Google Maps"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/personalizada" />
+
+    <Button
+        android:id="@+id/btSairLocalizacao"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:text="Voltar"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/personalizada"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
